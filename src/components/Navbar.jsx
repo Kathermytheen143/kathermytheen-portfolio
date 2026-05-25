@@ -73,7 +73,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="md:hidden glass border-b border-white/10 px-6 py-4 absolute top-full left-0 right-0 animate-fadeIn shadow-2xl">
+        <div className="md:hidden glass border-b border-white/10 px-6 py-4 absolute top-full left-0 right-0 animate-fade-in shadow-2xl">
           <div className="flex flex-col space-y-4">
             {navLinks.map((link) => (
               <a
