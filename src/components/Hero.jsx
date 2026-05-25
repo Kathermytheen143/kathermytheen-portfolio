@@ -118,7 +118,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 mb-12 sm:mb-20"
+          className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 mb-8 sm:mb-20"
         >
           <a
             href="#projects"
@@ -151,7 +151,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center cursor-pointer"
+          className="relative md:absolute md:bottom-10 md:left-1/2 md:-translate-x-1/2 w-fit mx-auto md:mx-0 flex flex-col items-center cursor-pointer mt-4 md:mt-0 z-20"
           onClick={() => {
             document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
           }}
